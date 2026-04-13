@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Analysis Master Hub</title>
+    <meta
+      name="description"
+      content="منصة احترافية لشرح منهج Error Analysis مع اختبار تشخيصي وتحليل أداء مفصل وإرسال النتائج للمدرس."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="site-header">
+      <div class="logo-block">
+        <span class="logo-badge">EA</span>
+        <div>
+          <p class="eyebrow">English Error Analysis</p>
+          <h1 class="logo-title">Master Hub</h1>
+        </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="#curriculum">المنهج</a>
+        <a href="#formats">نمط الأسئلة</a>
+        <a href="#assessment">الاختبار</a>
+        <a href="#results">التقرير</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy" data-reveal>
+          <span class="pill">منصة شرح + تشخيص + متابعة</span>
+          <h2>
+            موقع متكامل لمنهج
+            <span>Error Analysis & Common Mistakes</span>
+          </h2>
+          <p class="hero-text">
+            شرح منظم لكل أجزاء المنهج، أمثلة مركزة من نفس روح الملفات، اختبار
+            تشخيصي باللغة الأصلية للمادة، ثم تقرير أداء احترافي يوضح نقاط القوة
+            ونقاط التحسين ويرسله إلى المدرس ليتم بناء اختبار مخصص لكل طالب.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#assessment">ابدأ الاختبار التشخيصي</a>
+            <a class="btn btn-secondary" href="#curriculum">استعرض المنهج كاملًا</a>
+          </div>
+
+          <div class="hero-metrics">
+            <article class="metric-card">
+              <strong data-counter="6">0</strong>
+              <span>وحدات شرح أساسية</span>
+            </article>
+            <article class="metric-card">
+              <strong data-counter="18">0</strong>
+              <span>سؤال تشخيصي متنوع</span>
+            </article>
+            <article class="metric-card">
+              <strong data-counter="5">0</strong>
+              <span>أنماط امتحانية</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-panels" data-reveal>
+          <article class="glass-card spotlight-card">
+            <div class="spotlight-head">
+              <p class="eyebrow">Diagnostic Flow</p>
+              <span class="status-dot">Live</span>
+            </div>
+
+            <div class="spotlight-steps">
+              <div>
+                <span>01</span>
+                <p>شرح مركز لكل محور مع أمثلة واضحة.</p>
+              </div>
+              <div>
+                <span>02</span>
+                <p>اختبار بنفس لغة ملفات المنهج ونمط الخطأ الحقيقي.</p>
+              </div>
+              <div>
+                <span>03</span>
+                <p>Feedback + action plan + report جاهز للإرسال.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card report-preview">
+            <p class="eyebrow">Teacher Report Preview</p>
+            <h3>Professional Performance Snapshot</h3>
+            <div class="mini-bars">
+              <div>
+                <span>Phrasal Verbs</span>
+                <b style="width: 88%"></b>
+              </div>
+              <div>
+                <span>Confusing Pairs</span>
+                <b style="width: 72%"></b>
+              </div>
+              <div>
+                <span>Work Vocabulary</span>
+                <b style="width: 91%"></b>
+              </div>
+              <div>
+                <span>Grammar Fixes</span>
+                <b style="width: 63%"></b>
+              </div>
+            </div>
+            <p class="preview-note">
+              التقرير النهائي يوضح المستوى العام، توزيع الدرجات، الأسئلة
+              الخاطئة، وأولوية المراجعة القادمة.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell syllabus-section" id="curriculum">
+        <div class="section-heading" data-reveal>
+          <span class="pill">Syllabus Map</span>
+          <h2>شرح كل أجزاء المنهج بشكل واضح ومنظم</h2>
+          <p>
+            تم تقسيم المحتوى إلى وحدات كبيرة تغطي الأجزاء الظاهرة في ملفات
+            `phrasal verbs`, `confusing pairs`, `employment/work`, و`common
+            mistakes` مع تنبيهات على أكثر الأخطاء الشائعة في الامتحان.
+          </p>
+        </div>
+
+        <div class="module-grid" id="moduleGrid"></div>
+      </section>
+
+      <section class="section-shell formats-section" id="formats">
+        <div class="section-heading" data-reveal>
+          <span class="pill">Exam Language</span>
+          <h2>أنماط الأسئلة المستخدمة داخل الموقع</h2>
+          <p>
+            الاختبار لا يعطي أسئلة عامة؛ بل يستخدم نفس الصياغات الشائعة في
+            الملفات: اختيار من متعدد، إكمال فراغات، اختيار الجملة الصحيحة، ورصد
+            الخطأ اللغوي.
+          </p>
+        </div>
+
+        <div class="format-grid" id="formatGrid"></div>
+      </section>
+
+      <section class="section-shell gallery-section">
+        <div class="section-heading" data-reveal>
+          <span class="pill">From The Material</span>
+          <h2>عينات من الصفحات المستخدمة في بناء المحتوى</h2>
+          <p>
+            هذه اللقطات تمثل الجو الحقيقي للمادة، وتم الاعتماد على نفس
+            الموضوعات في بناء الشرح والأسئلة التشخيصية.
+          </p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </section>
+
+      <section class="section-shell assessment-section" id="assessment">
+        <div class="section-heading" data-reveal>
+          <span class="pill">Diagnostic Quiz</span>
+          <h2>اختبار تشخيصي ذكي بنفس لغة الملفات</h2>
+          <p>
+            اكتب بيانات الطالب ثم ابدأ. بعد الانتهاء سيظهر تحليل الأداء
+            واقتراح واضح بما يجب التركيز عليه قبل الاختبار المخصص.
+          </p>
+        </div>
+
+        <div class="assessment-layout">
+          <aside class="assessment-intro glass-card" data-reveal>
+            <h3>قبل البدء</h3>
+            <ul class="info-list">
+              <li>الأسئلة بالإنجليزية وبنفس روح ملف الامتحان.</li>
+              <li>التقييم موزع على المهارات وليس الدرجة النهائية فقط.</li>
+              <li>سيتم إنشاء تقرير جاهز للإرسال إلى المدرس.</li>
+            </ul>
+
+            <div class="student-form">
+              <label>
+                اسم الطالب
+                <input id="studentName" type="text" placeholder="اكتب الاسم الكامل" />
+              </label>
+              <label>
+                المجموعة / السكشن
+                <input id="studentGroup" type="text" placeholder="مثال: Fourth Year - Group A" />
+              </label>
+              <label>
+                بريد الطالب (اختياري)
+                <input id="studentEmail" type="email" placeholder="student@example.com" />
+              </label>
+
+              <button class="btn btn-primary wide-btn" id="startQuizBtn">
+                Start Diagnostic Assessment
+              </button>
+            </div>
+          </aside>
+
+          <div class="quiz-workspace glass-card" data-reveal>
+            <div class="quiz-placeholder" id="quizPlaceholder">
+              <h3>Ready to diagnose the learner's level?</h3>
+              <p>
+                بمجرد الضغط على البدء سيظهر شريط التقدم والسؤال الأول، ثم يتم
+                الانتقال تلقائيًا إلى لوحة النتائج النهائية.
+              </p>
+            </div>
+
+            <div class="quiz-shell hidden" id="quizShell">
+              <div class="quiz-topbar">
+                <div>
+                  <p class="eyebrow">Assessment Progress</p>
+                  <h3 id="questionLabel">Question 1</h3>
+                </div>
+                <span class="progress-fraction" id="progressFraction">1 / 18</span>
+              </div>
+
+              <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+              </div>
+
+              <article class="question-card" id="questionCard"></article>
+
+              <div class="quiz-controls">
+                <button class="btn btn-secondary" id="prevBtn" type="button">
+                  Previous
+                </button>
+                <button class="btn btn-primary" id="nextBtn" type="button">
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell results-section hidden" id="results">
+        <div class="section-heading" data-reveal>
+          <span class="pill">Performance Report</span>
+          <h2>تحليل الأداء النهائي وخطة المراجعة</h2>
+          <p>
+            هنا يظهر التقرير الكامل الذي يمكن استخدامه مباشرة مع الطالب أو
+            إرساله للمدرس لتجهيز اختبار مخصص.
+          </p>
+        </div>
+
+        <div class="results-layout">
+          <article class="results-summary glass-card" data-reveal>
+            <div class="score-ring">
+              <svg viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="48"></circle>
+                <circle cx="60" cy="60" r="48" id="scoreArc"></circle>
+              </svg>
+              <div>
+                <strong id="scorePercent">0%</strong>
+                <span id="scoreLabel">Awaiting result</span>
+              </div>
+            </div>
+
+            <div class="student-summary" id="studentSummary"></div>
+          </article>
+
+          <article class="results-breakdown glass-card" data-reveal>
+            <div class="panel-head">
+              <h3>Skill Breakdown</h3>
+              <span>Category by category</span>
+            </div>
+            <div id="breakdownList" class="breakdown-list"></div>
+          </article>
+        </div>
+
+        <div class="results-lower">
+          <article class="glass-card" data-reveal>
+            <div class="panel-head">
+              <h3>Strengths</h3>
+              <span>What the learner is already doing well</span>
+            </div>
+            <div id="strengthList" class="insight-list"></div>
+          </article>
+
+          <article class="glass-card" data-reveal>
+            <div class="panel-head">
+              <h3>Priority Focus</h3>
+              <span>What should be revised next</span>
+            </div>
+            <div id="priorityList" class="insight-list"></div>
+          </article>
+
+          <article class="glass-card teacher-report-card" data-reveal>
+            <div class="panel-head">
+              <h3>Teacher-Ready Report</h3>
+              <span id="teacherEmailLabel">mrmohamedruby@gmail.com</span>
+            </div>
+            <pre id="teacherReport" class="teacher-report"></pre>
+            <div class="report-actions">
+              <button class="btn btn-primary" id="sendReportBtn" type="button">
+                إرسال التقرير للمدرس
+              </button>
+              <button class="btn btn-secondary" id="copyReportBtn" type="button">
+                نسخ التقرير
+              </button>
+              <button class="btn btn-secondary" id="resetQuizBtn" type="button">
+                إعادة الاختبار
+              </button>
+            </div>
+            <p class="report-note">
+              زر الإرسال يفتح رسالة Gmail أو البريد الافتراضي بالتقرير جاهزًا على
+              عنوان المدرس.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell closing-section">
+        <div class="closing-card" data-reveal>
+          <span class="pill">Academic Workflow</span>
+          <h2>من شرح المنهج إلى اختبار مخصص لكل طالب</h2>
+          <p>
+            الموقع مصمم ليكون نقطة انطلاق عملية: الطالب يراجع، يختبر نفسه، يظهر
+            تقريره، ثم يتم إرسال تحليله إلى المدرس على البريد التالي:
+            <a href="mailto:mrmohamedruby@gmail.com">mrmohamedruby@gmail.com</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
